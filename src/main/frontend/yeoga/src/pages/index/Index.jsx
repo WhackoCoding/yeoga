@@ -1,3 +1,10 @@
+import ImageMenu from "./components/ImageMenu";
+import "../../index.css"
+
 export default function Index() {
-    return <>Hello World!</>
+    return (
+        <main>
+            <ImageMenu />
+        </main>
+    )
 }

@@ -83,9 +83,9 @@ const MapPopup = ({act, setAct, count, data}) => {
           </div>
           <div style={{flex: "1", paddingRight: "30px"}}>
           <LoadScript googleMapsApiKey={`${process.env.REACT_APP_GOOGLE_MAP_API_KEY}`}>
-            <GoogleMap mapContainerStyle={{width: "100%", height: "83vh"}} center={{lat: data[0]?.lat, lng: data[0]?.lng}} zoom={15} options={{ disableDefaultUI: true, styles: myStyles }}>
+            <GoogleMap mapContainerStyle={{width: "100%", height: "83vh"}} center={{lat: 37.5, lng: 127}} zoom={15} options={{ disableDefaultUI: true, styles: myStyles }}> /* mapContainerStyle는 직접 스타일 설정 */
             {data.map((item, index) => (
-            <MarkerF
+            <MarkerF /* Marker는 구 버전이기 때문에 MarkerF 사용해야 함*/
               key={index}
               position={{
                 lat: item.lat,
@@ -100,7 +100,7 @@ const MapPopup = ({act, setAct, count, data}) => {
             />
           ))}
           {selectedMarker && (
-            <InfoWindowF
+            <InfoWindowF /* InfoWindow는 구형이므로 F를 붙여야 함*/
               position={{lat: selectedMarker.lat, lng: selectedMarker.lng}}
               onCloseClick={handleInfoWindowClose}
               options={{
