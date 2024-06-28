@@ -1,0 +1,54 @@
+.UsetPageRightBC {
+    padding: 25px;
+}
+
+.UsetPageBuyBox {
+    width: auto;
+    height: 200px;
+
+    border: solid 1px #ccc;
+    margin-bottom: 10px;
+
+    display:flex;
+    padding: 20px;
+}
+
+    .UsetPageBuyBoxImg {
+        width: 250px;
+        height: 200px;
+
+        border: solid 1px #ccc;
+        overflow:hidden;
+        margin-right: 20px;
+    }
+        .UsetPageBuyBoxImage {
+            width: 100%;
+        }
+    
+    .UsetPageBuyNum {
+        color: #858585;
+    }
+
+    .UserPageBuyDescC {
+        margin-top: auto;
+        margin-left: auto;
+        float: right;
+        display:flex;
+        flex-direction: column;
+    }
+        .UsetPageBuyName {
+            font-weight: 500;
+            font-size: 25px;
+        }
+        .UsetPageBuyOp {
+            margin-left: auto;
+            color: #858585;
+        }
+        
+        .UsetPageBuyCost {
+            margin-left: auto;
+            font-weight: 500;
+            font-size: 22px;
+            color: #272727;
+        }
+

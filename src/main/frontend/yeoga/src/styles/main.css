@@ -1,0 +1,184 @@
+/* 메인 css */
+/* 대충 주석 버전 */
+/* .은 class #은 id 여기에선 안 씀 >는 자식 지정 */
+/* :first-child 첫째 자식 지정 :not(:first-child) 첫째 자식이 아닌 모든 것을 지정 */
+
+/* Wanted Sans 폰트 임포트 */
+@import url("https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.1/packages/wanted-sans/fonts/webfonts/variable/split/WantedSansVariable.min.css");
+
+/* 모든 요소에 폰트 적용 */
+* {
+  font-family: "Wanted Sans Variable";
+}
+
+/* 아마 리액트 기본 */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* 길이를 1200px로 지정 후 가운데 정렬 */
+main,
+footer {
+  /* width: 55%; */
+  width: 1200px;
+  margin: 0 auto;
+}
+
+main {
+  padding-top: 120px;
+  /* padding-top: 80px; */
+}
+
+/* header 및에 회색 밑줄 */
+/* 고정으로 변신 */
+header {
+  width: 100vw;
+  background-color: white;
+  /* border-bottom: solid 1px #ccc; */
+  position: fixed;
+  z-index: 99999;
+  left: 50%;
+  transform: translateX(-50%);
+  
+}
+
+.header {
+  /* header > div */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header>div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+}
+
+.logo>a>h1 {
+  display: flex;
+}
+
+.search-bar {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  border: solid 1px #ccc;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.search-bar>i {
+  margin-right: 5px;
+}
+
+.search-bar>input {
+  width: 250px;
+  border: none;
+  user-select: none;
+}
+
+/* input을 눌렀을 때 생기는 테두리 삭제 */
+.search:focus {
+  outline: none;
+}
+
+.login-menu>span {
+  margin-right: 5px;
+}
+
+.logo a {
+  color: black;
+  text-decoration: none;
+  /* transition: color 0.3s ease-out; */
+}
+
+.logo a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.logo a:hover,
+a:focus {
+  color: black;
+}
+
+.login-menu>a>button {
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  background-color: var(--theme-color);
+  color: white;
+  font-size: 16px;
+  padding: 7px 10px;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: solid 1px #ccc;
+}
+
+.header-nav>span {
+  cursor: pointer;
+  text-align: center;
+  flex-grow: 1;
+  margin: 5px;
+  margin-bottom: 15px;
+}
+
+.header-nav>span>i {
+  color: var(--theme-color);
+}
+
+footer {
+  height: 300px;
+  margin-top: 200px;
+  /* margin-bottom: 100px; */
+  color: gray;
+}
+
+footer>div:first-child {
+  display: flex;
+  width: 100%;
+}
+
+footer>div:first-child>div {
+  width: 50%;
+}
+
+footer>div:first-child>div:first-child>h3 {
+  margin-top: 0;
+}
+
+footer>div:first-child>div:first-child>p {
+  margin: 0;
+}
+
+footer>div:first-child>div:first-child>button {
+  background-color: white;
+  width: 100px;
+  height: 50px;
+  margin-top: 20px;
+}
+
+footer>div>div:not(:first-child) {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer>hr {
+  margin: 30px auto;
+}
+
+footer>div:not(:first-child) {
+  width: 100%;
+}
+
+footer>div:not(:first-child)>div {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}

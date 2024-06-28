@@ -1,0 +1,45 @@
+.resInfoModal3Div {
+  position: fixed;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  z-index: 100000;
+}
+
+.resInfoModal3Div > div > div:not(:first-child) {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.resInfoModal3Div > div {
+  border-radius: 15px;
+  padding: 10px;
+  margin-top: 40px;
+  width: 650px;
+  height: 620px;
+  background-color: white;
+}
+
+.resInfoModal3Div .modalName {
+  margin-left: 20px;
+}
+
+
+.resInfoModal3Div.img-div {
+  height: 440px; /* 원하는 높이 */
+  object-fit: cover;
+  width: 650px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.modalInImg{
+  margin-top: 50px;
+  width: 650px;
+  object-fit: cover;
+}

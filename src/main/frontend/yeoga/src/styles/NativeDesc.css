@@ -1,0 +1,214 @@
+.NDcontainer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+}
+.NDbenner {
+    width: 100%;
+    height: 350px;
+    background-color: antiquewhite;
+
+    margin-bottom: 50px;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    overflow:hidden;
+    margin:0 auto;
+
+    position: relative;
+}
+    .NDdescName {
+        position: absolute;
+
+        font-size: 30px;
+        font-weight: 500;
+        color: #ffffff;
+    }
+
+    .NDbenner > img{
+        width:100%;
+        height:100%;
+        object-fit:cover;
+
+        background-color: black;
+        filter:brightness(50%)
+    }
+
+    .NDimgContainer {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        overflow:hidden;
+
+        border: solid 3px #ffffff;
+        position: absolute;
+    }
+
+    .NDimgContainer > img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+
+.NDdesc {
+    width: 100%;
+    height: 350px;
+
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+    .NDdescLocation {
+        margin-top: 120px;
+        margin-bottom: 60px;
+        
+        color: #a1a1a1;
+
+    }
+
+    .NDdescTxt {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+.NDphoto {
+    width: 100%;
+    height: 400px;
+
+    background-color: #1f1f1f;
+
+    margin-bottom: 50px;
+}
+.NDFormList {
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+    .NDFormTopCon {
+        display:flex;
+        margin-bottom: 10px;
+    }
+
+        .NDFormListName{
+            font-size: 20px;
+            margin-right: 5px;
+        }
+
+        .NDFormListNum {
+            margin-top: auto;
+
+            font-size: 20px;
+            color: #64a6f1;
+        }
+    
+    .NDFormContainer{
+        width: 100%;
+        height: 200px;
+        border: solid 1px #ccc;
+        border-radius: 5px;
+
+        display:flex;
+        
+        margin-bottom: 10px;
+    }
+
+        .NDFormIMG {
+            width: 30%;
+            height: 100%;
+
+            overflow:hidden;
+            position: relative;
+            border-right: solid 1px #ccc;
+        }
+
+            .NDFormIMG > img {
+                width: 100%;
+                height: 100%;
+                object-fit:cover;
+            }
+        
+        .NDFormDesc {
+            width: 70%;
+            padding: 15px;
+            padding-top: 30px;
+            padding-bottom: 15px;
+
+            display:flex;
+            flex-direction: column;
+        }
+
+            .NDFormDescLoc {
+                color: #646464;
+                margin-bottom: 5px;
+            }
+
+            .NDFormDescName {
+                font-size: 23px;
+            }
+
+            .NDFormDescBotCon {
+                margin-top: auto;
+                display:flex;
+            }
+
+            .NDFormDescScore {
+                width:fit-content;
+                height: fit-content;
+                color: #646464;
+                font-size: 20px;
+                margin-top: auto;
+            }
+
+            .NDFormDescMon {
+                width:fit-content;
+                height: fit-content;
+
+                margin-left: auto;
+                margin-right: 5px;
+
+                font-size: 30px;
+            }
+
+.NDreviewCon {
+    margin-top: 20px;
+    display:flex;
+    flex-direction: column;
+}
+
+    .NDreviewSco {
+        font-size: 18px;
+        color: #32a5f1;
+    }
+
+    .NDreviewDate {
+        font-size: 13px;
+        color: #646464;
+        margin-bottom: 5px;
+    }
+
+    .NDreviewTxt {
+        color: #2c2c2c;
+        padding-bottom: 20px;
+        border-bottom: solid 1px #ccc;
+    }
+
+    .NDreview {
+        width: 110px;
+        height: 30px;
+
+        background-color: #ffffff;
+        border: solid 1px #ccc;
+        border-radius: 5px;
+
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }

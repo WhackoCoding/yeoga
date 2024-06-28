@@ -1,0 +1,102 @@
+.login-box {
+  margin: 0 auto; 
+  margin-top: 80px; 
+  width: 500px; 
+  border: solid 1px #ccc; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  flex-direction: column;
+}
+
+.input-container {
+  border: solid 1px #ccc; 
+  border-radius: 15px; 
+  width: 300px; 
+  margin-bottom: 15px;
+}
+
+.input-container > div {
+  padding: 15px;
+}
+
+.input-container > div > input {
+  border: none; 
+  font-size: 15px; 
+  margin-left: 15px;
+}
+
+.input-container > hr {
+  border: none; 
+  border-bottom: solid 1px #ccc; 
+  margin: 0;
+}
+
+.login-box > form > button {
+  width: 300px; 
+  height: 50px; 
+  background-color: black; 
+  color: white; 
+  border: none; 
+  border-radius: 15px; 
+  font-size: 15px;
+}
+
+.sns-btn-container {
+  display: flex; 
+  justify-content: space-around; 
+  width: 300px; 
+  margin-top: 15px;
+}
+
+.naver {
+  width: 30px; 
+  height: 30px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  border-radius: 20px; 
+  padding: 5px; 
+  background-color: #2DB400; 
+  cursor: pointer;
+}
+
+.naver > b {
+  color: white; 
+  user-select: none; 
+  font-size: 18px;
+}
+
+.google {
+  cursor: pointer;
+}
+
+.kakao {
+  width: 30px; 
+  height: 30px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  border-radius: 20px; 
+  padding: 5px; 
+  background-color: #FEE500; 
+  cursor: pointer;
+}
+
+.kakao > i {
+  color: black; 
+  font-size: 17px;
+}
+
+.login-suggest {
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  margin-top: 15px; 
+  margin-bottom: 20px;
+}
+
+.login-suggest > span > p {
+  cursor: pointer;
+}

@@ -1,0 +1,155 @@
+
+/* ===================================================== */
+
+.selectLocationForm { margin-top: 20px; padding:20px; padding-top:30px;   border:solid 1px #c0c0c0;}
+
+  .selectLocationMenu {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 15px; }
+
+    .selectLocationMenu > span {
+      font-size: large; 
+    }
+
+    .selectLocationOptionContainer > select {
+      width: 180px;
+      height: 30px;
+
+      background-color: white;
+      border-radius: 5px;
+      border: solid 1px #ccc;
+    }
+
+    .locationOption1 {
+      margin-right: 10px;
+    }
+
+  /* ===================================================== */
+
+
+.upload-content {border:solid 1px #ccc;   display: flex;}
+  .map-wrapper {
+    width: 65%;
+    height: 500px;
+  }
+
+    .map {
+      width: 100%;
+      height: 500px;
+    }
+
+
+  .search-menu {
+    width: 35%;
+  }
+
+    .search-bar-wrapper {
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      border-bottom: solid 1px #ccc;
+    }
+
+    .upload-search-bar {
+      padding: 10px;
+      border-radius: 10px;
+      display: flex;
+      width: 80%;
+      border: solid 1px #ccc;
+    }
+
+    .upload-search-bar > i {
+      width: auto;
+    }
+
+    .upload-search-bar > input {
+      border: none;
+      flex: 1;
+    }
+
+    .upload-search-bar > input:focus {
+      outline: none;
+    }
+
+
+  .search-result-container {
+    overflow-y: auto;
+  }
+
+    .searchLocationResult {
+      display: flex;
+
+
+      padding: 5px;
+      border-bottom: solid 1px #ccc;
+    }
+
+    .SLRimg {
+      width: 30%;
+      border: solid 1px #ccc;
+      margin-right: 10px;
+      max-height: 60px;
+    }
+
+    .searchLocationResult img {
+      width: 100%;
+      height: 100%;
+    }
+
+    .SLRP {
+      width: 100%;
+      margin-top: 5px;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+
+    .SLRP p {
+      margin: 0;
+    }
+
+    .SLRPhotel{
+      font-size: 19px;
+      font-weight: 550;
+    }
+
+    .SLRPLocation{
+      font-size: 13px;
+      font-weight: 550;
+
+      margin-bottom: 5px;
+    }
+    
+    .SLRP > .tlqkf {
+      margin-right: 3px;
+      margin-left: auto;
+    }
+
+    .SLRP > .tlqkf > button{
+      width: 50px;
+      height: 25px;
+
+      background-color: #eeeeee;
+      border-radius: 5px;
+      border: 0px;
+    }
+
+
+
+.goWriteForm {
+  width: 100%;
+  height: 40px;
+
+  margin-top: 5px;
+
+  background-color: #fff;
+  border: solid 1px #ccc;
+
+  font-size: 15px;
+}

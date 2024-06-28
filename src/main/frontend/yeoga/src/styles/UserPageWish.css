@@ -1,0 +1,59 @@
+.UserPageNow{
+    background-color: gainsboro;
+}
+
+.UsetPageRightCC {
+    padding: 20px;
+
+    display:flex;
+}
+
+.UsetPageWishBox1 {
+    width: 100%;
+    height: 280px;
+
+    margin-right: 25px;
+
+    border: solid 1px #ccc;
+    border-radius: 5px;
+}
+
+    .UsetPageWishBoxTop {
+        height: 65%;
+
+        border-bottom: solid 1px #ccc;
+        overflow:hidden;
+    }
+
+        .UsetPageWishImg {
+            width: 100%;
+        }
+
+    .UsetPageWishBoxBot {
+        padding: 5px;
+
+        display:flex;
+        flex-direction: column;
+    }
+        .UsetPageWishName{
+            font-size: 23px;
+
+            margin-bottom: 10px;
+        }
+
+        .UsetPageWishStar {
+            font-size: 20px;
+        }
+
+        .UsetPageWishMoney {
+        }
+
+.UsetPageWishBox0 {
+    width: 100%;
+    height: 280px;
+
+
+    border: solid 1px #ccc;
+    border-radius: 5px;
+}
+

@@ -1,0 +1,156 @@
+.뭐없냐 {
+    margin-top: 30px;
+}
+.위에배너넣을게없다 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.SNTopContainer {
+    padding-top: 20px;
+    padding-bottom: 5px;
+    border-bottom: solid 1px #ccc;
+
+    display:flex;
+    justify-content:space-between
+}
+
+    .SNPageNationF {
+        width: 30px;
+        height: 30px;
+
+        margin-right: 7px;
+
+        background-color: white;
+        border-radius: 50%;
+        border: solid 1px #ccc;
+    }
+
+    .SNPageNationS {
+        width: 30px;
+        height: 30px;
+
+        margin-right: 7px;
+
+        background-color: white;
+        border-radius: 50%;
+        border: none;
+    }
+
+    .SNPageNationNow {
+        width: 30px;
+        height: 30px;
+
+        margin-right: 7px;
+
+        background-color: #f0f0f0;
+        border-radius: 50%;
+        border: none;
+    }
+
+    .SNSearchBar {
+        padding: 5px;
+        width: 280px;
+
+        background-color: #f0f0f0;
+        border-radius: 5px;
+
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+        .SNSearchBarSelect {
+            background-color:transparent;
+            border: none;
+        }
+
+        .SNSearchBarInput {
+            height: 35px;
+
+            background-color:transparent;
+            border: none;
+
+        }
+
+.SNNativeContiner {
+    width: auto;
+    height: 220px;
+    padding: 5px;
+
+    border-bottom: solid 1px #ccc;
+    display: flex;
+    align-items: center;
+    
+}
+
+    .SNNativeImg {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        overflow: hidden;
+
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .SNNativeImg > img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .SNNativeDesc {
+        width: 850px;
+        height: 100%;
+        border-left: solid 1px #ccc;
+        padding-left: 15px;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .SNNname {
+        font-size: 23px;
+        font-weight: 500;
+
+        margin-right: 5px;
+        margin-top: 30px;
+    }
+
+    .SNNlocation {
+        color: #646464;
+    }
+
+    .SNNlastTime {
+        margin-top: auto;
+        color: #2b7eb6;
+        font-size: 15px;
+    }
+
+    .SNNdesc {
+        margin-top: 10px;
+    }
+
+    .이거둘이옆으로붙일거임 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .SNNbutton {
+        width: 130px;
+        height: 30px;
+
+        font-size: 17px;
+
+        border: solid 1px #ccc;
+        background-color:transparent;
+        
+        margin-top: auto;
+        /* bottom: 0; */
+        margin-left: auto;
+        margin-right: 5px;
+        margin-bottom: 5px;
+    }
+
+    
+

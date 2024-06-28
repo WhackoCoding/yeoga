@@ -1,0 +1,132 @@
+.room-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.room-info > div:first-child {
+  width: 54%;
+}
+
+.room-info > div:first-child > div {
+  border: solid 1px #ccc;
+  height: 600px;
+}
+
+.room-info > div:first-child > div > div:first-child {
+  background-size: cover; 
+  height: 75%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-bottom: 15px;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+
+.room-info > div:first-child > div > div:not(:first-child) {
+  padding: 10px; 
+  height: 25%; 
+  box-sizing: border-box; 
+  display: flex; 
+  width: auto; 
+  align-items: center;
+  
+}
+
+.room-info > div:first-child > div > div:not(:first-child) > div {
+  background-size: cover; 
+  width: 25%; 
+  height: 125px; 
+  margin-right: 10px;
+}
+
+.room-info > div:not(:first-child) {
+  width: 44%; 
+  height: 600px; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: space-between;
+}
+
+.room-info > div:not(:first-child) > div:first-child > div {
+  display: flex; 
+  flex-direction: column; 
+  align-items: flex-end;
+}
+
+.room-info > div:not(:first-child) > div > div > h2 {
+  margin-top: 0; 
+  font-weight: normal;
+}
+
+.room-info > div:not(:first-child) > div:not(:first-child) {
+  display: flex; 
+  justify-content: flex-end; 
+  flex-wrap: wrap; 
+  margin-bottom: 10px;
+}
+
+.room-info > div:not(:first-child) > div:not(:first-child) > select {
+  width: 100%; 
+  font-size: 20px;
+}
+
+.room-info > div:not(:first-child) > div:not(:first-child) >a> button {
+  font-size: 20px; 
+  background-color: black; 
+  color: white; 
+  border: none; 
+  border-radius: 15px; 
+  padding: 5px 10px; 
+  margin-top: 10px;
+}
+
+.detail-info {
+  display: flex; 
+  justify-content: space-between; 
+  margin-top: 50px;
+}
+
+.detail-info > div:first-child {
+  width: 64%;
+}
+
+.detail-info > div:first-child > div:nth-child(3) {
+  display: flex;
+}
+
+.detail-info > div:first-child > div:nth-child(3) > div:first-child {
+  background-size: cover; 
+  width: 150px; 
+  height: 150px; 
+  border-radius: 75px;
+}
+
+.detail-info > div:first-child > div:nth-child(3) > div:not(:first-child) {
+  margin-left: 20px;
+}
+
+.detail-info > div:not(:first-child) {
+  width: 34%;
+}
+
+.detail-info > div:not(:first-child) > div > div {
+  margin-bottom: 20px;
+}
+
+.detail-info > div:not(:first-child) > div > div > p:nth-child(1) {
+  margin-top: 5px; 
+  margin-bottom: 5px; 
+  display: flex; 
+  justify-content: space-between;
+}
+
+.detail-info > div:not(:first-child) > div > div > p:nth-child(2) {
+  margin-top: 5px; 
+  margin-bottom: 5px;
+}
+
+.detail-info > div:not(:first-child) > div > div > p:nth-child(3) {
+  margin-top: 5px; 
+  margin-bottom: 5px;
+}

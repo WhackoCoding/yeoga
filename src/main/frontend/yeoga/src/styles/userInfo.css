@@ -1,0 +1,151 @@
+.user-image-box {
+  border-width: 1px;
+  border-color: #ccc;
+  border-style: solid;
+  width: 300px; /* 원하는 너비 */
+  height: 325px; /* 원하는 높이 */
+  border-radius: 10px; /* 테두리의 궁글거리게 설정 */
+  padding: 10px; /* 내부 여백 설정 */
+}
+
+.user-image-circle {
+  width: 150px; /* 원형 모양을 위한 너비 설정 */
+  height: 150px; /* 원형 모양을 위한 높이 설정 */
+  border-width: 1px;
+  border-color: #ccc;
+  border-style: solid;
+  border-radius: 50%; /* 원형 모양으로 만들기 */
+  margin: 25px auto 0; /* 위쪽 여백을 25px로 설정하고, 나머지 여백은 자동으로 설정 */
+  padding: 20px;
+  display: flex;
+}
+
+.user-image-name{
+  text-align: center;
+}
+
+.user-profile-option {
+  text-decoration: underline;
+  text-align: center;
+}
+
+.user-info-box {
+  border-width: 1px;
+  border-color: #ccc;
+  border-style: solid;
+  width: 800px; /* 원하는 너비 */
+  height: auto; /* 자동 높이 */
+  border-radius: 10px; /* 테두리의 궁글거리게 설정 */
+  padding: 10px; /* 내부 여백 설정 */
+  display: flex;
+}
+
+.user-info-box > * {
+  flex: 1; /* 내부 요소들이 상자를 채우도록 설정 */
+}
+
+.user-info-edit {
+  background-color: #ccc;
+  color: black;
+  font-size: 15px;
+  width: 50px;
+  height: 25px;
+  border-radius: 10px; /* 테두리의 궁글거리게 설정 */
+}
+
+.user-name-bar,
+.user-mail-bar,
+.user-connect-bar,
+.user-password-bar,
+.user-sns-bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  font-size: 15px;
+}
+.user-name,
+.user-mail,
+.user-connect,
+.user-password,
+.user-sns {
+  font-size: 25px;
+  flex: 1; /* 자식 요소들이 동일한 너비를 가지도록 설정 */
+}
+
+.user-name-data,
+.user-mail-data,
+.user-connect-data,
+.user-password-data,
+.user-sns-data {
+  font-size: 25px;
+  margin-left: 10px; /* 데이터 요소들의 왼쪽 여백 추가 */
+}
+
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  display: none;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+input:checked+.slider {
+  background-color: #2196F3;
+}
+
+input:focus+.slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+  transform: translateX(26px);
+}
+
+
+/* ON OFF 글자 추가 */
+
+.slider::after {
+  content: "OFF";
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: calc(100% - 27px);
+  transform: translateY(-55%);
+  font-size: 10px;
+  color: #555;
+}
+
+input:checked+.slider::after {
+  content: "ON";
+  left: 10px;
+  color: #fff;
+}

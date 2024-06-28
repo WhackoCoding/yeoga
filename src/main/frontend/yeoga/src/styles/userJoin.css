@@ -1,0 +1,59 @@
+.user-login-box {
+  border-width: 1px;
+  border-color: #ccc;
+  border-style: solid;
+  width: 500px;
+  height: 1775px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px; /* 테두리의 궁글거리게 설정 */
+  padding: 20px; /* 내부 여백 설정 */
+}
+  
+ .user-check-btn{
+  margin: 0 auto; /* 가운데 정렬을 위한 마진 설정 */
+  width: 350px;
+  height: 50px;
+  background-color: var(--theme-color);
+  color: white;
+  border: none;
+  border-radius: 15px;
+  font-size: 15px;
+  margin-bottom: 50px;
+}
+  
+.user-basic-bar{
+  width: 350px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border: solid 1px #ccc;
+  border-radius: 15px;
+  padding-left: 10px;
+  margin-bottom: 50px;
+}
+  
+.user-id-bar{
+  width: 300px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border: solid 1px #ccc;
+  border-radius: 15px;
+  padding-left: 10px;
+  margin-bottom: 50px;
+}
+  
+.user-info-box{
+  border-width: 1px;
+  border-color: #ccc;
+  border-style: solid;
+  border-style: solid;
+  width: 400px;
+  overflow-y: auto;
+  height: 400px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px; /* 테두리의 궁글거리게 설정 */
+  padding: 20px; /* 내부 여백 설정 */
+}

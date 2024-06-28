@@ -1,0 +1,112 @@
+.write-review {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.write-review-title {
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+
+.write-review-header {
+  display: flex;
+  flex-direction: row;
+  /* border: 1px solid gray; */
+}
+
+.review-item-image {
+  width: 80px;
+  height: 80px;
+  margin-left: -180px;
+  /* position: relative; /* 상대적 위치 지정 
+    left: -160px; /*좌표값으로 왼쪽으로 이동 */
+}
+
+.write-review-text {
+  margin-left: 20px;
+  /*position: relative; /* 상대적 위치 지정 */
+  /* left: -150px; 좌표값으로 왼쪽으로 이동 */
+}
+
+.review-info {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/*별점 */
+.reviewStarTitle {
+  font-weight: bold;
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.reviewStar-rating {
+  display: flex;
+}
+
+.reviewStar {
+  appearance: none;
+  padding: 1px;
+}
+
+.reviewStar::after {
+  content: '☆';
+  color: #51abf3;
+  font-size: 50px;
+}
+
+.reviewStar:hover::after,
+.reviewStar:has(~ .reviewStar:hover)::after,
+.reviewStar:checked::after,
+.reviewStar:has(~ .reviewStar:checked)::after {
+  content: '★';
+}
+
+.reviewStar:hover~.reviewStar::after {
+  content: '☆';
+}
+
+/*게시판영역*/
+.writeReview-textarea{
+  margin-top: 10px;
+  width: 80%;
+  height: 200px;
+  font-size: 16px;
+}
+
+/*제출버튼*/
+.writeReview-submit:hover{
+  background-color: #2b96ed;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px 0px;
+}
+
+.writeReview-submit{
+  margin-top: 10px;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  text-align: center;
+  border: 0px;
+  border-radius: 4px;
+  font-weight: bold;
+  letter-spacing: -0.2px;
+  transition: all 0.3s ease 0s;
+  user-select: none;
+  outline-style: none;
+  cursor: pointer;
+  height: 48px;
+  padding: 0px 32px;
+  font-size: 16px;
+  color: white;
+  background-color: #51abf3;
+  width: 300px;
+}

@@ -1,0 +1,62 @@
+/* .swiper-button-prev::after, .swiper-button-next::after {
+  color: white;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: white;
+} */
+.swiper-button-disabled {
+  display: none;
+}
+
+* {
+  --swiper-theme-color: white;
+}
+
+/* .swiper-slide.swiper-slide-active {
+  transition: transform 0.7s ease;
+}
+
+.swiper-slide.swiper-slide-active:hover {
+  transform: scale(1.025);
+  transform: translateY(-5px);
+  transition-duration: 0.3s;
+} */
+
+/* .swiper-pagination-bullet {
+  margin: 0 !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+  background-color: gray !important;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  margin: 0 !important;
+  background-color: black !important;
+} */
+
+.room {
+  scroll-behavior: smooth;
+}
+
+.room::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  /* 스크롤바의 너비 */
+}
+
+.room::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.1);;
+  /* 스크롤바의 색상 */
+  border-radius: 20px;
+}
+
+.room::-webkit-scrollbar-track {
+  /* background: rgba(49, 51, 56, 0.3); */
+  background: none;
+  /*스크롤바 뒷 배경 색상*/
+}
+
+.chatInput:focus {
+  outline: none;
+}

@@ -1,0 +1,117 @@
+.nav {
+   float : left;
+   border: solid 1px #ccc;
+   display: flex;
+   flex-direction: column;
+   width : 15%;
+   padding : 10px 0;
+}
+.nav>a{
+   text-decoration: none;
+}
+.nav-mng {
+   display: flex;
+   flex-direction: column;
+}
+.nav-mng > span {
+   height: 50px;
+   text-align: left;
+   line-height: 50px;
+   font-size: 18px;
+   padding-left: 15px;
+   display: flex;
+   align-items: center;
+   color:black;
+   text-decoration: none;
+}
+.nav > hr {
+   border: solid 0.5px #ccc;
+   margin-top: 200px;
+   margin-bottom: 10px;
+   width:100%;
+}
+.nav > span {
+   height: 50px;
+   text-align: left;
+   line-height: 50px;
+   font-size: 18px;
+   padding-left: 15px;
+   display: flex;
+   align-items: center;
+}
+.nav > span > div {
+   width : 25px;
+   height : 25px;
+   display: inline-block;
+   margin-right: 10px;
+}
+.icon-cs {
+   background-image: url('https://cdn-icons-png.flaticon.com/512/3276/3276693.png'); 
+   background-size: cover;  
+}
+.icon-acc {
+   background-image: url('https://cdn.icon-icons.com/icons2/1369/PNG/512/-account-circle_89831.png'); 
+   background-size: cover;
+}
+.content {
+   display: flex;
+   flex-direction: column;
+   padding : 1%;
+}
+.content > h2 {
+   margin: 10px 1%;
+   font-size: 20px;
+}
+.hotel-list {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+.hotel-list > div {
+   border: solid 1px #ccc;
+   width : 22.5%;
+   height : 230px;
+   margin : 1%;
+}
+.add-hotel {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.add-hotel > div {
+   width:70px;
+   height: 70px;
+   background-image :url('https://cdn-icons-png.flaticon.com/512/18/18659.png');
+   background-size: cover;
+   margin-bottom: 20px;
+}
+.hotel {
+   border: solid 1px #ccc;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   position:relative;
+}
+.hotel > div {
+   width : 100%;
+   height:150px;
+   
+   background-size: cover;
+}
+.hotel > h4 {
+   margin:0;
+   padding-top:10px;
+   padding-left: 10px;
+}
+.hotel > h5 {
+   align-self: flex-end;
+   position:absolute;
+   bottom:0;
+   margin:0;
+   padding-bottom:10px;
+   padding-right: 10px;
+}
+.gray {
+   background-color: rgba(204,204,204,0.3);
+}

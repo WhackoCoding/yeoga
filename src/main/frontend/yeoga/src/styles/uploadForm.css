@@ -1,0 +1,193 @@
+.ql-editor {
+    height: 600px !important;
+}
+
+.quill {
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 0;
+}
+
+.FormContainer {
+    width: auto;
+
+    margin-top: 50px;
+    padding: 30px;
+
+    border: solid 1px #ccc;
+}
+    .FormBackButton {
+        width: 18%;
+        height: 30px;
+
+        font-size: 16px;
+        background-color: #fff;
+        border: solid 1px #ccc;
+        border-radius: 5px;
+
+        margin-bottom: 15px;
+    }
+
+    .FormHeadContainer{
+        width: 100%;
+
+        margin-bottom: 50px;
+
+        display: flex;
+        justify-content: space-between;
+    }
+
+        .FormImgContainer{
+            width: 50%;
+            height: 500px;
+
+            background-color: #fff;
+            border: solid 1px #ccc;
+        }
+            .FormTopImg {
+                height: 75%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-bottom: solid 1px #ccc;
+            }
+
+            .FormBottomImg {
+                padding: 10px;
+            }
+
+                .FormInnerImg {
+                    width: 25%;
+                    height: 100px;
+                    border: solid 1px #ccc;
+                }
+
+        .FormTextContainer{
+            width: 50%;
+            height: 500px;
+
+        }
+
+            .FormText{
+                margin-top: 10px;
+                margin-left: 20px;
+                margin-bottom: 130px;
+            }
+
+                .FormTextHead {
+                    font-size: 30px;
+                    margin-bottom: 5px;
+                    border: none;
+                }
+
+                .FormTextHead:focus {
+                    outline: none;
+                }
+
+                .FormTextBody {
+                    font-size: 20px;
+                    /* color: #7a7a7a; */
+                }
+
+
+            .FormInput {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+
+                margin-bottom: 50px;
+            }
+
+                .FormInputBox {
+                    display: flex;
+        
+                    margin-bottom: 10px;
+                }
+
+                .FormInputBox p {
+                    display:flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+
+                    font-size: 18px;
+                    color: #242424;
+                }
+
+                .FormInputBox input {
+                    align-items: center;
+
+                    width: 260px;
+                    height: 40px;
+
+                    margin-left: 10px;
+
+                    border: solid 1px #ccc;
+                    border-radius: 3px;
+                }
+
+            .FormPrice{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+
+                margin-bottom: 5px;
+            }
+                .FormPriceBox{
+                    display: flex;
+                }
+
+
+                .FormPriceTxt{
+                    display:flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+
+                    margin-right: 10px;
+                    
+                    color: #7a7a7a;
+                }
+
+                .FormPriceNum {
+                    color: #7a7a7a;
+                }
+
+                
+
+            .FormEndPrice {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+            }
+                .FormEndPriceTxt {
+                    font-size: 30px;
+                    margin-right: 10px;
+                }
+
+                .FormEndPriceNum {
+                    font-size: 30px;
+                }
+
+.FormBodyContainer{
+    width: 100%;
+    height: 650px;
+
+    margin-bottom: 10px;
+
+    /* background-color: #fff;
+    border: solid 1px #ccc;
+    border-radius: 5px; */
+}
+
+.FormGoButton{
+    width: 100%;
+    height: 40px;
+
+    font-size: 16px;
+    background-color: #fff;
+    border: solid 1px #ccc;
+    
+}
