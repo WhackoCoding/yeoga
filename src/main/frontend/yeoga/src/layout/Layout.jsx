@@ -1,13 +1,16 @@
-import Header from "./Header";
 import Footer from "./Footer";
-import {Outlet} from "react-router-dom";
+import Header from "./Header";
+import { Outlet, useLocation } from "react-router-dom";
 
 export default function Layout() {
-    return (
-        <>
-            <Header />
-            <Outlet />
-            <Footer />
-        </>
-    )
+  const location = useLocation();
+
+  return (
+    <>
+      <Header />
+      {/* {props.children} */}
+      <Outlet />
+      { location.pathname === "/login" || location.pathname === "/upload" ? <></> : <Footer /> }
+    </>
+  )
 }
